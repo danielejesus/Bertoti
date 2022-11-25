@@ -1,5 +1,5 @@
 # Bertoti
-# Ciclo de Vida de uma Concessionaria
+# Ciclo de Vida de uma Concessionária
 
 
 ## Requesitos Funcionais
