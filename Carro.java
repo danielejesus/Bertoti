@@ -1,11 +1,11 @@
 
-public class Carro {
+public class Moto {
 	
 	private String placa;
 	private Especificacao espec;
 	
 	
-	public Carro(String placa, Especificacao espec) {
+	public Moto(String placa, Especificacao espec) {
 		this.placa = placa;
 		this.espec = espec;
 	}
