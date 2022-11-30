@@ -14,8 +14,8 @@
 
 <br><br>
 ## Diagrama de Caso de Uso:
-![Screenshot](uml.png)</br>
+!</br>
 
 <br><br>
 ## Diagrama de Classe:
-![Screenshot](aa.png)</br>
+!</br>
