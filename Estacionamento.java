@@ -3,31 +3,31 @@ import java.util.List;
 
 public class Estacionamento {
 	
-	private List<Carro> carros = new LinkedList<Carro>();
+	private List<Moto> motos = new LinkedList<Moto>();
 	
-	public void cadastrarCarro(Carro carro) {
-		carros.add(carro);
+	public void cadastrarMoto(Moto moto) {
+		motos.add(moto);
 	}
 	
-	public List<Carro> buscarCarroPorEspecificacao(Especificacao espec){
-		List<Carro> carrosEncontrados = new LinkedList<Carro>();
-		for(Carro carro:carros) {
-			if(carro.getEspec().comparar(espec)) carrosEncontrados.add(carro);
+	public List<Moto> buscarMotoPorEspecificacao(Especificacao espec){
+		List<Moto> motosEncontrados = new LinkedList<Moto>();
+		for(Moto moto:motos) {
+			if(moto.getEspec().comparar(espec)) motosEncontrados.add(moto);
 		}
-		return carrosEncontrados;
+		return motosEncontrados;
 	}
 	
-	public Carro buscarcarroPorPlaca(String placa) {
-		for(Carro carro:carros) {
-			if(carro.getPlaca().equals(placa)) {
-				return carro;
+	public Moto buscarmotooPorPlaca(String placa) {
+		for(Moto moto:motos) {
+			if(moto.getPlaca().equals(placa)) {
+				return moto;
 			}
 		}
 		return null;
 	}
 	
-	public List<Carro> getCarros(){
-		return this.carros;
+	public List<Moto> getMotos(){
+		return this.motos;
 	}
 
 }
