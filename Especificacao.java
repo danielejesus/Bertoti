@@ -3,15 +3,15 @@ public class Especificacao {
 	
 	private String marca;
 	private String modelo;
-	private String corCarro;
+	private String corMoto;
 	
 	
 	
-	public Especificacao(String marca, String modelo, String corCarro) {
+	public Especificacao(String marca, String modelo, String corMoto) {
 		
 		this.marca = marca;
 		this.modelo = modelo;
-		this.corCarro = corCarro;
+		this.corMoto = corMoto;
 	}
 	
 	public String getMarca() {
@@ -34,14 +34,14 @@ public class Especificacao {
 		return corCarro;
 	}
 
-	public void setCorCarro(String corCarro) {
-		this.corCarro = corCarro;
+	public void setCorMoto(String corMoto) {
+		this.corMoto = corMoto;
 	}
 	
 	public boolean comparar(Especificacao especificacao) {
 		if(marca.equals(especificacao.marca) && 
 				modelo.equals(especificacao.modelo) &&
-				corCarro.equals(especificacao.corCarro)) {
+				corMoto.equals(especificacao.corMoto)) {
 			return true;
 		} else {
 			return false;
