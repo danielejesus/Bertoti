@@ -11,20 +11,20 @@ class Teste {
 		
 		Estacionamento estacionamento = new Estacionamento();
 		
-		assertEquals(estacionamento.getCarros().size(), 0);
+		assertEquals(estacionamento.getMotos().size(), 0);
 		
-		estacionamento.cadastrarCarro(new Carro("ABC1111", new Especificacao("vw", "variant", "azul")));
-		estacionamento.cadastrarCarro(new Carro("ABC2222", new Especificacao("fiat", "uno", "branco")));
+		estacionamento.cadastrarMoto(new Moto("ABC1111", new Especificacao("vw", "variant", "azul")));
+		estacionamento.cadastrarMoto(new Moto("ABC2222", new Especificacao("fiat", "uno", "branco")));
 		
-		assertEquals(estacionamento.getCarros().size(), 2);
+		assertEquals(estacionamento.getMotos().size(), 2);
 		
-		Carro carroEncontrado = estacionamento.buscarcarroPorPlaca("ABC2222");
+		Moto motoEncontrado = estacionamento.buscarmotoPorPlaca("ABC2222");
 		
-		assertEquals(carroEncontrado.getEspec().getModelo(), "uno");
+		assertEquals(motooEncontrado.getEspec().getModelo(), "uno");
 		
-		List<Carro> carrosEncontrados = estacionamento.buscarCarroPorEspecificacao(new Especificacao("vw", "variant", "azul"));
+		List<Moto> motosEncontrados = estacionamento.buscarMotoPorEspecificacao(new Especificacao("vw", "variant", "azul"));
 		
-		assertEquals(carrosEncontrados.get(0).getEspec().getModelo(), "variant");
+		assertEquals(motosEncontrados.get(0).getEspec().getModelo(), "variant");
 		
 	}
 
