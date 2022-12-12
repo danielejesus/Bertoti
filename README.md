@@ -13,4 +13,4 @@
 
 <br><br>
 ## Diagrama de Classe:
-!</br>
+![DiagramaUML](https://user-images.githubusercontent.com/102192948/207170426-f4148bd5-dffb-4cf9-b030-7b556de6fef8.PNG)</br>
