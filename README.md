@@ -4,7 +4,7 @@
 
 ## Requesitos Funcionais
 
-- Funcionário pode buscar carro por nome, placa e cor;
+- Funcionário pode buscar moto por nome, placa e cor;
 - Funcionário pode cadastrar uma nova moto.
 
 <br><br>
