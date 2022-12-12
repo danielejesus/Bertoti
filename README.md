@@ -9,7 +9,7 @@
 
 <br><br>
 ## Diagrama de Caso de Uso:
-!</br>
+![Diagrama casos de uso](https://user-images.githubusercontent.com/102192948/207168280-621df87e-9051-4b87-a7f0-434275d6ce41.PNG)</br>
 
 <br><br>
 ## Diagrama de Classe:
